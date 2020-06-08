@@ -61,12 +61,14 @@ export default {
   .b-top
     height $top-height
     .logo
-      width 198px
-      height 25px
-      margin-top 12px
+      width 1.98rem
+      height .25rem
+      margin-top .12rem
+      float left
     .user-infos
-      width 460px
+      width 4.6rem
       height 100%
+      font-size .14rem
       float right
       .list
         display flex
@@ -78,11 +80,12 @@ export default {
     .nav-list
       display flex
       justify-content flex-start
+      font-size .14rem
       > li
-        width 78px
+        width .78rem
         height $nav-height
         line-height $nav-height
         .booking
-          font-size 24px
-          padding-right 5px
+          font-size .24rem
+          padding-right .05rem
 </style>
