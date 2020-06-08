@@ -53,11 +53,17 @@
           <next-card :bigCardWidth="5.5"></next-card>
         </div>
       </div>
-      <div class="stays-hot">
-        <base-title title="热门目的地"></base-title>
-      </div>
+      <StaysHot />
       <div class="stays-explore">
         <base-title title="探索目的地"></base-title>
+        <div class="explore-pages">
+          <ul class="pages-list">
+            <li class="page" v-for="i in 11" :key=i>
+              <span class="pager">{{i}}</span>
+            </li>
+          </ul>
+          <span class="pages-more">更多目的地</span>
+        </div>
         <div class="card-list">
           <explore-card></explore-card>
           <explore-card></explore-card>
@@ -72,10 +78,12 @@
 
 <script>
 import Search from 'components/Search/Search'
+import StaysHot from './StaysHot'
 
 export default {
   components: {
-    Search
+    Search,
+    StaysHot
   }
 }
 </script>
@@ -108,8 +116,28 @@ export default {
       justify-content space-between
       margin-top .2rem
   .stays-explore
+    .explore-pages
+      color #fff
+      font-size .14rem
+      // 使用浮动定位，清除浮动影响？
+      // float right
+      display flex
+      justify-content flex-end
+      margin-bottom .15rem
+      .pages-list
+        display inline-block
+        .page
+          display inline-block
+          width .24rem
+          height .24rem
+          background #838383
+          margin-right .1rem
+          text-align center
+          line-height .24rem
+      .pages-more
+        color #0071c2
+        line-height .24rem
     .card-list
       display flex
       justify-content space-between
-      // margin-top .2rem
 </style>

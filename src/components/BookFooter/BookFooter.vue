@@ -15,7 +15,10 @@
             </div>
             <div class="tel-help">
               <p class="tel-center">常见问题</p>
-              <p>去<span class="tel-link">帮助中心</span>看看</p>
+              <p>
+                去
+                <span class="tel-link">帮助中心</span>看看
+              </p>
             </div>
           </div>
         </div>
@@ -26,13 +29,14 @@
           </div>
           <form>
             <input type="email" placeholder="您的电子邮箱地址" />
-            <input type="button" value="订阅!" /> <br />
+            <input type="button" value="订阅!" />
+            <br />
             <input type="checkbox" />请同时给我发送Booking.com免费App下载链接
           </form>
         </div>
       </div>
     </div>
-    <div class="footer-center ">
+    <div class="footer-center">
       <div class="links b-container">
         <div class="links-top">
           <button>上线我的住宿</button>
@@ -51,14 +55,16 @@
       </div>
     </div>
     <div class="footer-down b-container">
-      <div class="web-navs">navs</div>
+      <WebNavs />
       <div class="intros">
         <p class="nums">
           不管你是谁，想要住哪种类型的住宿，我们都能满足你的需求。
           我们网站上共有2,948万个房源，
           包括656万家度假屋、公寓和其他独特的住宿， 遍布全球225个国家和地区的
           15万个目的地。Booking.comB.V.总部位于荷兰阿姆斯特丹，由位于
-          <span class="nums-highlight">全球70个国家和地区的 198个办公室</span>提供支持。
+          <span
+            class="nums-highlight"
+          >全球70个国家和地区的 198个办公室</span>提供支持。
         </p>
         <p class="backstage">登录后台</p>
         <div class="copyright">版权 © 1996–2020 Booking.com™. 版权所有.</div>
@@ -69,12 +75,24 @@
           </p>
           <div class="icons">
             <ul class="list clearfix">
-              <li><img src="../../assets/images/icons/i14.png" alt="" /></li>
-              <li><img src="../../assets/images/icons/i15.png" alt="" /></li>
-              <li><img src="../../assets/images/icons/i16.png" alt="" /></li>
-              <li><img src="../../assets/images/icons/i17.png" alt="" /></li>
-              <li><img src="../../assets/images/icons/i18.png" alt="" /></li>
-              <li><img src="../../assets/images/icons/i19.png" alt="" /></li>
+              <li>
+                <img src="../../assets/images/icons/i14.png" alt />
+              </li>
+              <li>
+                <img src="../../assets/images/icons/i15.png" alt />
+              </li>
+              <li>
+                <img src="../../assets/images/icons/i16.png" alt />
+              </li>
+              <li>
+                <img src="../../assets/images/icons/i17.png" alt />
+              </li>
+              <li>
+                <img src="../../assets/images/icons/i18.png" alt />
+              </li>
+              <li>
+                <img src="../../assets/images/icons/i19.png" alt />
+              </li>
             </ul>
           </div>
         </div>
@@ -84,7 +102,13 @@
 </template>
 
 <script>
-export default {}
+import WebNavs from './WebNavs'
+
+export default {
+  components: {
+    WebNavs
+  }
+}
 </script>
 
 <style lang="stylus" scoped>
@@ -103,34 +127,34 @@ export default {}
         background #fff
         color black
         box-sizing border-box
-        padding .15rem
+        padding 0.15rem
         .tel-hour
           .tel-logo
             float left
-            width .5rem
-            height .5rem
+            width 0.5rem
+            height 0.5rem
             background url('../../assets/images/icons.png') no-repeat
           h3
             position relative
-            left .15rem
-            font-size .24rem
+            left 0.15rem
+            font-size 0.24rem
             font-weight bold
-            margin-left .1rem
+            margin-left 0.1rem
           .order
             position relative
-            left .15rem
-            font-size .16rem
-            line-height .3rem
+            left 0.15rem
+            font-size 0.16rem
+            line-height 0.3rem
             color #8e8e8e
         .tel-others
-          font-size .16rem
+          font-size 0.16rem
           display flex
           box-sizing border-box
-          padding 0 .65rem
+          padding 0 0.65rem
           justify-content space-between
           .tel-center
             text-align center
-            line-height .3rem
+            line-height 0.3rem
           .tel-link
             color #0071c2
       .addr
@@ -138,73 +162,74 @@ export default {}
         .addr-top
           text-align center
           h3
-            font-size .24rem
-            line-height .32rem
+            font-size 0.24rem
+            line-height 0.32rem
             font-weight 300
           p
-            font-size .16rem
-            line-height .24rem
+            font-size 0.16rem
+            line-height 0.24rem
             color #bdbdbd
         form
-          margin-top .2rem
+          margin-top 0.2rem
           input:nth-of-type(1)
             width 3.5rem
-            height  .5rem
+            height 0.5rem
           input:nth-of-type(2)
-            margin-left .15rem
+            margin-left 0.15rem
             width 1.6rem
-            height  .56rem
-            background-color: #0071c2;
+            height 0.56rem
+            background-color #0071c2
           input:nth-of-type(3)
-            margin .15rem .02rem 0 -.01rem
+            margin 0.15rem 0.02rem 0 -0.01rem
   .footer-center
-    // height 1.02rem
     background #003580
     .links-top
       text-align center
       button
         width 1.8rem
-        height .4rem
-        margin .2rem 0
-        background rgba(12,12,12,0)
+        height 0.4rem
+        margin 0.2rem 0
+        background rgba(12, 12, 12, 0)
         color #fff
     .links-split
       position absolute
       left 0
       right 0
-      height .01rem
+      height 0.01rem
       background #fff
     .links-down
       display flex
       justify-content space-between
       color #fff
-      padding .2rem 0
+      padding 0.2rem 0
       > li
         text-decoration underline
   .footer-down
-    .web-navs
-      height 1rem
     .intros
-      font-size .12rem
+      font-size 0.12rem
       color #333
       .nums
         line-height 1.2
         .nums-highlight
           color #0071c2
       .backstage
-        margin .5rem 0
+        margin 0.5rem 0
         text-align center
         color #0071c2
       .service
+        text-align center
         .title
-          text-align center
-          margin .2rem 0
+          margin 0.2rem 0
         .icons
-          text-align center
+          display inline-block
           color red
           .clearfix
-            clear both
+            *zoom 1
+            &:after
+              display block
+              content ''
+              clear both
             li
               float left
-              margin-right .3rem
+              margin-right 0.3rem
 </style>

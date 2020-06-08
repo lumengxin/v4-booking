@@ -1,7 +1,7 @@
 <template>
   <div class="B-header">
     <div class="b-top b-container">
-      <img class="logo" src="../../assets/images/b-logo.png" alt="booking">
+      <img class="logo" src="../../assets/images/b-logo.png" alt="booking" />
       <div class="user-infos">
         <ul class="list">
           <li>HK$</li>
@@ -44,9 +44,7 @@
 </template>
 
 <script>
-export default {
-  
-}
+export default {}
 </script>
 
 <style lang="stylus" scoped>
@@ -59,6 +57,7 @@ export default {
   color $main-dark-text-color
   background $b-header-color
   .b-top
+    color $main-text-color
     height $top-height
     .logo
       width 1.98rem
@@ -75,6 +74,22 @@ export default {
         height 100%
         align-items center
         justify-content space-around
+        button
+          // 清楚默认样式
+          margin: 0px;
+          padding: 0px;
+          border: 0px;
+          outline: none;
+
+          border .01rem solid #fff
+          border-radius .02rem
+          background $b-header-color
+          color #fff
+          font-size .12rem
+          padding .05rem
+        > li:nth-of-type(6) button, li:nth-of-type(7) button
+          background $main-text-color
+          color black
   .b-nav
     height $nav-height
     .nav-list

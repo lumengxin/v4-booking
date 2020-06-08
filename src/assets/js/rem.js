@@ -1,4 +1,4 @@
-(() => {
+;(() => {
   function serRem(DrawingSize = 1920, baseSize = 100) {
     var wW = window.innerWidth
     // var htmlH = window.innerHeight;
@@ -14,7 +14,10 @@
         // 倍率
         var times =
           parseInt(
-            100 - ((window.screen.height - window.innerHeight) / window.screen.height) * 100
+            100 -
+              ((window.screen.height - window.innerHeight) /
+                window.screen.height) *
+                100
           ) / 100
         rem = (wW / DrawingSize) * baseSize * times
       }
