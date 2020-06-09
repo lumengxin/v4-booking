@@ -33,6 +33,10 @@ export default {
   background url('../../assets/images/stay01.webp') no-repeat
   background-size 100% 100%
   font-size .14rem
+  transition all .5s
+  &:hover
+    // 盒阴影特效
+    box-shadow inset 0 -3em 3em rgba(0,0,0,0.1), 0 0  0 2px rgb(255,255,255), 0.3em 0.3em 1em rgba(0,0,0,0.3)
   .top
     padding .25rem .2rem
     color #fff
