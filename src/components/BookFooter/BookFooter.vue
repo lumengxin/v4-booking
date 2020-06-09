@@ -58,20 +58,17 @@
       <WebNavs />
       <div class="intros">
         <p class="nums">
-          不管你是谁，想要住哪种类型的住宿，我们都能满足你的需求。
-          我们网站上共有2,948万个房源，
+          不管你是谁，想要住哪种类型的住宿，我们都能满足你的需求。 我们网站上共有2,948万个房源，
           包括656万家度假屋、公寓和其他独特的住宿， 遍布全球225个国家和地区的
           15万个目的地。Booking.comB.V.总部位于荷兰阿姆斯特丹，由位于
-          <span
-            class="nums-highlight"
-          >全球70个国家和地区的 198个办公室</span>提供支持。
+          <span class="nums-highlight">全球70个国家和地区的 198个办公室</span>提供支持。
         </p>
         <p class="backstage">登录后台</p>
         <div class="copyright">版权 © 1996–2020 Booking.com™. 版权所有.</div>
         <div class="service">
           <p class="title">
-            Booking.com隶属于Booking Holdings
-            Inc.，该集团是深受全球用户好评的在线旅行 及周边服务供应商。
+            Booking.com隶属于Booking Holdings Inc.，该集团是深受全球用户好评的在线旅行
+            及周边服务供应商。
           </p>
           <div class="icons">
             <ul class="list clearfix">

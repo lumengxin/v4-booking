@@ -14,10 +14,7 @@
         // 倍率
         var times =
           parseInt(
-            100 -
-              ((window.screen.height - window.innerHeight) /
-                window.screen.height) *
-                100
+            100 - ((window.screen.height - window.innerHeight) / window.screen.height) * 100
           ) / 100
         rem = (wW / DrawingSize) * baseSize * times
       }

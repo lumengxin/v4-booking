@@ -39,7 +39,7 @@
           <li>游记攻略</li>
         </ul>
       </div>
-       <div class="navs-col">
+      <div class="navs-col">
         <ul>
           <li>公寓</li>
           <li>度假村</li>
@@ -61,9 +61,7 @@
 </template>
 
 <script>
-export default {
-  
-}
+export default {}
 </script>
 
 <style lang="stylus" scoped>
@@ -76,7 +74,7 @@ export default {
       *zoom 1
       &:after
         display block
-        content '' 
+        content ''
         clear both
       li
         float left

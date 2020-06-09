@@ -58,8 +58,8 @@
         <base-title title="探索目的地"></base-title>
         <div class="explore-pages">
           <ul class="pages-list">
-            <li class="page" v-for="i in 11" :key=i>
-              <span class="pager">{{i}}</span>
+            <li class="page" v-for="i in 11" :key="i">
+              <span class="pager">{{ i }}</span>
             </li>
           </ul>
           <span class="pages-more">更多目的地</span>
