@@ -58,8 +58,8 @@
         <base-title title="探索目的地"></base-title>
         <div class="explore-pages">
           <ul class="pages-list">
-            <li class="page" v-for="i in 11" :key=i>
-              <span class="pager">{{i}}</span>
+            <li class="page" v-for="i in 11" :key="i">
+              <span class="pager">{{ i }}</span>
             </li>
           </ul>
           <span class="pages-more">更多目的地</span>
@@ -89,6 +89,8 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+@import '~stylus/mixin.styl'
+
 .stays-content
   .stays-ad
     width 100%
@@ -99,21 +101,17 @@ export default {
     background-size 100% 100%
   .stays-stay
     .card-list
-      display flex
-      justify-content space-between
+      card-flex()
   .stays-type
     .card-list
-      display flex
-      justify-content space-between
+      card-flex()
       margin-top .2rem
   .stays-short
     .card-list
-      display flex
-      justify-content space-between
+      card-flex()
   .stays-next
     .card-list
-      display flex
-      justify-content space-between
+      card-flex()
       margin-top .2rem
   .stays-explore
     .explore-pages
@@ -121,8 +119,7 @@ export default {
       font-size .14rem
       // 使用浮动定位，清除浮动影响？
       // float right
-      display flex
-      justify-content flex-end
+      card-flex(flex-end)
       margin-bottom .15rem
       .pages-list
         display inline-block
@@ -138,6 +135,5 @@ export default {
         color #0071c2
         line-height .24rem
     .card-list
-      display flex
-      justify-content space-between
+      card-flex()
 </style>

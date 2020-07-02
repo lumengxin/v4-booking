@@ -72,7 +72,7 @@
       .form-item
         border .04rem solid #febb02
         &:not(:first-child)
-          border-left-style none 
+          border-left-style none
           border-radius 0
         &:not(:last-child)
           box-sizing border-box
@@ -83,10 +83,11 @@
         &:last-child
           border-top-right-radius .04rem
           border-bottom-right-radius .04rem
-      .form-search 
+      .form-search
         width 100%
         input
           border none
+          outline none
           background $b-search-color
           width 90%
           height 100%
@@ -106,7 +107,7 @@
           display inline-block
           margin-left .1rem
           font-size .16rem
-          i 
+          i
             color #0071c2
       .form-submit
         width 1.8rem
@@ -120,7 +121,7 @@
     .form-item-down
       margin-top .2rem
       font-size .14rem
-      input 
+      input
         margin-left -.01rem
       span
         position: relative;

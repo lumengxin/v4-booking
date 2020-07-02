@@ -1,0 +1,70 @@
+{
+  "result": [
+    {
+      "b_home_city_name": "伦敦",
+      "b_home_country_name": "英国",
+      "b_home_id": 785838,
+      "b_home_name": "骑士三码头酒店",
+      "b_home_photo_uri": "/xdata/images/hotel/max500/29465472.jpg?k=7c0133d14c54156613fb89d3baa5bf95ca41241d9805dd2da83092387dd75edc&o=",
+      "b_home_review_count": 380,
+      "b_home_review_score": 9.4,
+      "b_home_review_score_word": "好极了",
+      "b_price": "HK$ 20,299",
+      "b_price_selected_currency": "HK$ 20,299",
+      "b_price_without_symbol": 2058.7
+    },
+    {
+      "b_home_city_name": "巴黎",
+      "b_home_country_name": "法国",
+      "b_home_id": 1367061,
+      "b_home_name": "Luxury 3 Bedrooms Grands-Boulevards I by Livinparis",
+      "b_home_photo_uri": "/xdata/images/hotel/max500/48243386.jpg?k=9891532fb6d24d301b65659650e79812c426f46de905fba30bb8a8c5fea52d85&o=",
+      "b_home_review_count": 152,
+      "b_home_review_score": 7.5,
+      "b_home_review_score_word": "好",
+      "b_price": "HK$ 1,170",
+      "b_price_selected_currency": "HK$ 1,170",
+      "b_price_without_symbol": 133
+    },
+    {
+      "b_home_city_name": "佛罗伦萨",
+      "b_home_country_name": "意大利",
+      "b_home_id": 2132601,
+      "b_home_name": "M7现代公寓 - 我的家外之家",
+      "b_home_photo_uri": "/xdata/images/hotel/max500/105924646.jpg?k=b88f79efee7351ec98ae3906b9ffa45715090c473909ee54c45f0f152e50ed82&o=",
+      "b_home_review_count": 251,
+      "b_home_review_score": 9,
+      "b_home_review_score_word": "好极了",
+      "b_price": "HK$ 783",
+      "b_price_selected_currency": "HK$ 783",
+      "b_price_without_symbol": 89
+    },
+    {
+      "b_home_city_name": "克拉科夫",
+      "b_home_country_name": "波兰",
+      "b_home_id": 2302180,
+      "b_home_name": "思捷潘斯卡复古新风尚公寓式酒店",
+      "b_home_photo_uri": "/xdata/images/hotel/max500/99932621.jpg?k=5ee9e400553d2b7fea5761b8be59f737863ece37ae8667558983ded401c40500&o=",
+      "b_home_review_count": 241,
+      "b_home_review_score": 9.2,
+      "b_home_review_score_word": "好极了",
+      "b_price": "HK$ 2,218",
+      "b_price_selected_currency": "HK$ 2,218",
+      "b_price_without_symbol": 1122
+    },
+    {
+      "b_home_city_name": "马德里",
+      "b_home_country_name": "西班牙",
+      "b_home_id": 2434223,
+      "b_home_name": "马拉萨纳公寓",
+      "b_home_photo_uri": "/xdata/images/hotel/max500/107417762.jpg?k=4bd417bc59e8b286f64493821e5605a2a6e6a4ea0e6fc4ca6664c54d80cd27c5&o=",
+      "b_home_review_count": 511,
+      "b_home_review_score": 9.2,
+      "b_home_review_score_word": "好极了",
+      "b_price": "HK$ 1,654",
+      "b_price_selected_currency": "HK$ 1,654",
+      "b_price_without_symbol": 188
+    }
+  ],
+  "success": 1
+}
