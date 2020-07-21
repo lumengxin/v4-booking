@@ -1,6 +1,9 @@
 'use strict'
 
 module.exports = {
+  publicPath: '/v19/v4-booking',
+  outputDir: 'dist/v19/v4-booking',
+  assetsDir: 'static',
   devServer: {
     open: true
   },
